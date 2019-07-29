@@ -1,0 +1,47 @@
+{
+  "name": "planned-management",
+  "version": "1.0.0",
+  "description": "一个计划管理的app",
+  "main": "mian.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --open --port 8080  --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/looprandom/planned-management.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/looprandom/planned-management/issues"
+  },
+  "homepage": "https://github.com/looprandom/planned-management#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^3.1.0",
+    "file-loader": "^4.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "sass": "^1.22.7",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.1.0",
+    "vue-loader": "^15.7.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "mint-ui": "^2.2.13",
+    "vue": "^2.6.10",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.7",
+    "vuex": "^3.1.1"
+  }
+}
